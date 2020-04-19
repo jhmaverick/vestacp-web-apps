@@ -1,0 +1,28 @@
+#!/bin/bash
+
+source "/usr/local/vesta/web/plugins/app-installer/func/apps.sh"
+
+app="$1"
+user_name="$2"
+web_domain="$3"
+
+if [[ ! "$app" || ! "$user_name" || ! "$web_domain" ]]; then
+    echo "Invalid arguments"
+    echo "Ex: v-app-installer <app> <user> <web_domain>"
+    echo "App list: wordpress, moodle"
+    exit 1
+fi
+
+if [[ "$(check_web_dir "$user_name" "$web_domain")" != "1" ]]; then
+    check_web_dir "$user_name" "$web_domain"
+    exit 1
+fi
+
+if [[ "$app" == "wordpress" ]]; then
+    wordpress "$user_name" "$web_domain"
+elif [[ "$app" == "moodle" ]]; then
+    moodle "$user_name" "$web_domain"
+else
+    echo "Invalid app"
+    exit 1
+fi

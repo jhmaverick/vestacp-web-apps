@@ -1,0 +1,17 @@
+{
+  "name": "Vesta CP App Installer",
+  "description": "Vesta CP App Installer.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "permission": "admin",
+  "homepage": "https://github.com/jhmaverick/vestacp-app-installer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhmaverick/vestacp-app-installer.git"
+  },
+  "author": {
+    "name": "João Henrique",
+    "email": "joao_henriquee@outlook.com",
+    "homepage": "https://github.com/jhmaverick/"
+  }
+}

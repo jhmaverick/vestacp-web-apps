@@ -5,10 +5,6 @@
   "license": "MIT",
   "user-role": "all",
   "homepage": "https://github.com/jhmaverick/vestacp-app-installer#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jhmaverick/vestacp-app-installer.git"
-  },
   "author": {
     "name": "João Henrique",
     "email": "joao_henriquee@outlook.com",

@@ -65,7 +65,7 @@ function action_install($app, $user_name, $web_domain) {
     echo "<h1>" . __("Installing") . " $app...</h1>";
 
     echo "<pre>";
-    system(VESTA_CMD . "v-add-web-domain-app \"$app\" \"$user_name\" \"$web_domain\"");
+    system(VESTA_CMD . "v-install-web-app \"$app\" \"$user_name\" \"$web_domain\"");
     echo "</pre>";
 
     global $backbutton;

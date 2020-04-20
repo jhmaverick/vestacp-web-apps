@@ -1,10 +1,7 @@
 ## Vesta App Installer
 
-* `wget https://github.com/jhmaverick/vestacp-app-installer/master/install.sh -O /tmp/vestacp-app-installer.sh`
-* `sudo chmod +x /tmp/vestacp-app-installer.sh`
-* `sudo /tmp/vestacp-app-installer.sh`
+## Installation
 
-The aplication will be installed in `/usr/local/vesta/web/plugins/app-installer`
-
-
+* Install [Vesta Plugins](https://github.com/jhmaverick/vestacp-plugins) if not already installed.
+* In the Vesta panel access "Plugins" menu and add the plugin by url `https://github.com/jhmaverick/vestacp-app-installer`.
 

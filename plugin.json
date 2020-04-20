@@ -1,8 +1,7 @@
 {
-  "name": "Vesta CP App Installer",
+  "name": "vestacp-app-installer",
   "description": "Vesta CP App Installer.",
   "version": "0.0.1",
-  "license": "MIT",
   "user-role": "all",
   "homepage": "https://github.com/jhmaverick/vestacp-app-installer#readme",
   "author": {

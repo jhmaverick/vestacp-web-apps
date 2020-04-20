@@ -1,9 +1,9 @@
 {
-  "name": "vestacp-app-installer",
+  "name": "vestacp-web-apps",
   "description": "Vesta CP App Installer.",
   "version": "0.0.1",
   "user-role": "all",
-  "homepage": "https://github.com/jhmaverick/vestacp-app-installer#readme",
+  "homepage": "https://github.com/jhmaverick/vestacp-web-apps#readme",
   "author": {
     "name": "João Henrique",
     "email": "joao_henriquee@outlook.com",

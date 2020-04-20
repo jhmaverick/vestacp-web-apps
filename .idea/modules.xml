@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/vestacp-app-installer.iml" filepath="$PROJECT_DIR$/.idea/vestacp-app-installer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vestacp-web-apps.iml" filepath="$PROJECT_DIR$/.idea/vestacp-web-apps.iml" />
     </modules>
   </component>
 </project>

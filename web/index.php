@@ -11,7 +11,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/templates/header.html');
 top_panel($user, $TAB);
 
 // Start content block
-echo '<div class="l-center units app-installer">';
+echo '<div class="l-center units vestacp-web-apps">';
 echo '<link rel="stylesheet" href="/plugins/vestacp-web-apps/style.css"/>';
 
 // The template used when there is no action

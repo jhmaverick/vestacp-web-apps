@@ -12,7 +12,7 @@ top_panel($user, $TAB);
 
 // Start content block
 echo '<div class="l-center units app-installer">';
-echo '<link rel="stylesheet" href="/plugins/app-installer/style.css"/>';
+echo '<link rel="stylesheet" href="/plugins/vestacp-web-apps/style.css"/>';
 
 // The template used when there is no action
 function default_template() {

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "/usr/local/vesta/web/plugins/app-installer/func/apps.sh"
+source "/usr/local/vesta/plugins/vestacp-app-installer/func/apps.sh"
 
 app="$1"
 user_name="$2"

@@ -70,8 +70,9 @@ wordpress() {
 
     web_path="/home/$user_name/web/$web_domain";
 
-    if [[ "$(check_web_dir "$user_name" "$web_domain")" != "1" ]]; then
-        check_web_dir "$user_name" "$web_domain"
+    check_dir="$(check_web_dir "$user_name" "$web_domain")"
+    if [[ "$check_dir" != "1" ]]; then
+        echo "$check_dir"
         return
     fi
 
@@ -99,8 +100,9 @@ moodle() {
 
     web_path="/home/$user_name/web/$web_domain";
 
-    if [[ "$(check_web_dir "$user_name" "$web_domain")" != "1" ]]; then
-        check_web_dir "$user_name" "$web_domain"
+    check_dir="$(check_web_dir "$user_name" "$web_domain")"
+    if [[ "$check_dir" != "1" ]]; then
+        echo "$check_dir"
         return
     fi
 

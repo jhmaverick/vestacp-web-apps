@@ -1,8 +1,9 @@
 {
-  "name": "vestacp-web-apps",
-  "description": "Vesta CP App Installer.",
-  "version": "0.0.1",
-  "user-role": "all",
+  "name": "web-apps",
+  "description": "Install web applications like wordpress with one click.",
+  "version": "0.1.0",
+  "min-vesta": "0.9.8",
+  "repository": "https://github.com/jhmaverick/vestacp-web-apps",
   "homepage": "https://github.com/jhmaverick/vestacp-web-apps#readme",
   "author": {
     "name": "João Henrique",

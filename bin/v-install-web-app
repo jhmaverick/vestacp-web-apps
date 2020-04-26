@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "/usr/local/vesta/plugins/vestacp-web-apps/func/apps.sh"
+source "/usr/local/vesta/plugins/web-apps/func/apps.sh"
 
 app="$1"
 user_name="$2"
@@ -13,8 +13,9 @@ if [[ ! "$app" || ! "$user_name" || ! "$web_domain" ]]; then
     exit 1
 fi
 
-if [[ "$(check_web_dir "$user_name" "$web_domain")" != "1" ]]; then
-    check_web_dir "$user_name" "$web_domain"
+check_dir="$(check_web_dir "$user_name" "$web_domain")"
+if [[ "$check_dir" != "1" ]]; then
+    echo "$check_dir"
     exit 1
 fi
 

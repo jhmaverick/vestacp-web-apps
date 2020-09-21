@@ -77,7 +77,8 @@ wordpress() {
     fi
 
     echo "== Downloading Wordpress..."
-    curl -L -J  'https://br.wordpress.org/latest-pt_BR.zip' -o "/home/$user_name/tmp/wordpress.zip" 2>&1
+    #curl -L -J  'https://br.wordpress.org/latest-pt_BR.zip' -o "/home/$user_name/tmp/wordpress.zip" 2>&1
+    curl -L -J  'https://wordpress.org/latest.zip' -o "/home/$user_name/tmp/wordpress.zip" 2>&1
 
     echo -e "\n== Extract files..."
     unzip "/home/$user_name/tmp/wordpress.zip" -d "/home/$user_name/tmp"

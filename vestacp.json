@@ -1,7 +1,7 @@
 {
   "name": "web-apps",
   "description": "Install web applications like wordpress with one click.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "min-vesta": "0.9.8",
   "repository": "https://github.com/jhmaverick/vestacp-web-apps",
   "homepage": "https://github.com/jhmaverick/vestacp-web-apps#readme",
